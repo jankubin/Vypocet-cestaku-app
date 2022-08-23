@@ -1,24 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Vy_poc_et_Cest_a_ku_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="RBi-yY-l7R">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ae2-zY-Et9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dvg-Pe-LZz">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MWv-AJ-Wx4">
+                                                <rect key="frame" x="20" y="10" width="374" height="629"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Výpočet Cesťáku" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4a-ES-nwG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="243"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Projeto l PH" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpG-xZ-IUb">
+                                                        <rect key="frame" x="0.0" y="253" width="374" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" text="Amortizace" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFZ-cg-21V">
+                                                        <rect key="frame" x="0.0" y="283.5" width="374" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Cena projetých PH" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD0-G2-hI0">
+                                                        <rect key="frame" x="0.0" y="314" width="374" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Celková cena cesťáku" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6F-gB-EDp">
+                                                        <rect key="frame" x="0.0" y="344.5" width="374" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DF7-Pi-pYH">
+                                                        <rect key="frame" x="0.0" y="375" width="374" height="34"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Počet km" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gqt-ie-itk">
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="kPd-Zd-NfQ"/>
+                                                                    <constraint firstAttribute="height" constant="34" id="mTP-H4-ixy"/>
+                                                                </constraints>
+                                                                <color key="textColor" systemColor="systemYellowColor"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Aie-Pu-gs6">
+                                                        <rect key="frame" x="0.0" y="419" width="374" height="34"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Spotřeba l/100 km" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i5d-ox-oX7">
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="34" id="yOZ-ai-LgB"/>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="zFU-qc-Vd8"/>
+                                                                </constraints>
+                                                                <color key="textColor" systemColor="systemYellowColor"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3x0-Ae-y47">
+                                                        <rect key="frame" x="0.0" y="463" width="374" height="34"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cena 1 l PH" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="af7-BO-BLk">
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="CLm-qt-JtR"/>
+                                                                    <constraint firstAttribute="height" constant="34" id="Jex-Gp-m2m"/>
+                                                                </constraints>
+                                                                <color key="textColor" systemColor="systemYellowColor"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="g0k-vy-2HD">
+                                                        <rect key="frame" x="0.0" y="507" width="374" height="34"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amortizace za 1 km" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g7Q-x3-Ayw">
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="YpU-Wq-UFA"/>
+                                                                    <constraint firstAttribute="height" constant="34" id="jMD-6M-syf"/>
+                                                                </constraints>
+                                                                <color key="textColor" systemColor="systemYellowColor"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRg-t9-CYz">
+                                                        <rect key="frame" x="0.0" y="551" width="374" height="34"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="34" id="3V3-QC-Mjx"/>
+                                                        </constraints>
+                                                        <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Navigace">
+                                                            <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="26"/>
+                                                            <color key="baseForegroundColor" systemColor="systemYellowColor"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="navigaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h3A-Vs-4b9"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fc-XF-IXz">
+                                                        <rect key="frame" x="0.0" y="595" width="374" height="34"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="34" id="qdd-xd-p7H"/>
+                                                        </constraints>
+                                                        <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Vypočítat">
+                                                            <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="26"/>
+                                                            <color key="baseForegroundColor" systemColor="systemYellowColor"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="vypocitatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xdc-dJ-w3g"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="MWv-AJ-Wx4" secondAttribute="bottom" constant="33" id="9mR-Rk-juM"/>
+                                            <constraint firstAttribute="trailing" secondItem="MWv-AJ-Wx4" secondAttribute="trailing" constant="20" id="eN0-6X-Liq"/>
+                                            <constraint firstItem="MWv-AJ-Wx4" firstAttribute="leading" secondItem="dvg-Pe-LZz" secondAttribute="leading" constant="20" id="gKw-pK-ZRS"/>
+                                            <constraint firstAttribute="height" constant="628" id="y4B-Lr-7fE"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dvg-Pe-LZz" firstAttribute="top" secondItem="q4b-5Z-Rc3" secondAttribute="top" id="7qK-Wj-ePu"/>
+                                    <constraint firstItem="dvg-Pe-LZz" firstAttribute="width" secondItem="7ea-RY-7BG" secondAttribute="width" id="9zW-5G-JR9"/>
+                                    <constraint firstItem="7ea-RY-7BG" firstAttribute="bottom" secondItem="dvg-Pe-LZz" secondAttribute="bottom" constant="180" id="XUQ-ae-26W"/>
+                                    <constraint firstItem="dvg-Pe-LZz" firstAttribute="bottom" secondItem="q4b-5Z-Rc3" secondAttribute="bottom" constant="-141" id="fep-4c-N5h"/>
+                                    <constraint firstItem="dvg-Pe-LZz" firstAttribute="trailing" secondItem="q4b-5Z-Rc3" secondAttribute="trailing" id="mlF-am-Jur"/>
+                                    <constraint firstItem="dvg-Pe-LZz" firstAttribute="leading" secondItem="q4b-5Z-Rc3" secondAttribute="leading" id="zvP-nn-MNR"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="q4b-5Z-Rc3"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="7ea-RY-7BG"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ae2-zY-Et9" secondAttribute="bottom" id="K0v-dz-AZB"/>
+                            <constraint firstItem="ae2-zY-Et9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vm5-z6-ava"/>
+                            <constraint firstAttribute="bottom" secondItem="RBi-yY-l7R" secondAttribute="bottom" id="a6j-Fh-xZY"/>
+                            <constraint firstItem="RBi-yY-l7R" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bfC-63-mYw"/>
+                            <constraint firstItem="RBi-yY-l7R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="c9N-ZQ-RC1"/>
+                            <constraint firstItem="ae2-zY-Et9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fQs-Bz-1Hg"/>
+                            <constraint firstItem="MWv-AJ-Wx4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="g4C-bZ-Lsj"/>
+                            <constraint firstItem="RBi-yY-l7R" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ps9-B0-Crb"/>
+                            <constraint firstItem="ae2-zY-Et9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qvm-nJ-m67"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="9BY-JN-jBB"/>
+                    <connections>
+                        <outlet property="amortizaceLbl" destination="KFZ-cg-21V" id="q20-qV-7Fc"/>
+                        <outlet property="amortizaceTxt" destination="g7Q-x3-Ayw" id="oV9-F8-cwn"/>
+                        <outlet property="celkovaCenaLbl" destination="j6F-gB-EDp" id="mdn-J5-S6p"/>
+                        <outlet property="cenaLPhTxt" destination="af7-BO-BLk" id="DmM-gs-6P8"/>
+                        <outlet property="cenaProjetychPhLbl" destination="xD0-G2-hI0" id="ptl-bY-0qz"/>
+                        <outlet property="pocetKmTxt" destination="gqt-ie-itk" id="hXN-uL-PPS"/>
+                        <outlet property="projetolPhLbl" destination="gpG-xZ-IUb" id="hJ8-OF-2XD"/>
+                        <outlet property="spotrebaTxt" destination="i5d-ox-oX7" id="Ib2-Pd-nwZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="17.39130434782609" y="83.035714285714278"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="341" height="341"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
