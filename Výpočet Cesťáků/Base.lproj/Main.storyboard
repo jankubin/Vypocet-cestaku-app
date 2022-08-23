@@ -145,7 +145,7 @@
                                                         </constraints>
                                                         <color key="tintColor" systemColor="secondaryLabelColor"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Navigace">
+                                                        <buttonConfiguration key="configuration" style="filled" image="map" catalog="system" title="Navigace">
                                                             <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="26"/>
                                                             <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                                         </buttonConfiguration>
@@ -160,7 +160,7 @@
                                                         </constraints>
                                                         <color key="tintColor" systemColor="secondaryLabelColor"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Vypočítat">
+                                                        <buttonConfiguration key="configuration" style="filled" image="number" catalog="system" title="Vypočítat">
                                                             <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="26"/>
                                                             <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                                         </buttonConfiguration>
@@ -224,6 +224,8 @@
     </scenes>
     <resources>
         <image name="background" width="341" height="341"/>
+        <image name="map" catalog="system" width="128" height="110"/>
+        <image name="number" catalog="system" width="128" height="124"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
