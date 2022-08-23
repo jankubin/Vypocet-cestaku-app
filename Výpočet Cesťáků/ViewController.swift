@@ -30,8 +30,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var celkovaCenaLbl: UILabel!
     
     
-    @IBAction func navigaceButton(_ sender: Any)
-    {
+    
+    @IBAction func navigaceButton(_ sender: Any) {
+        
+    
         let latitude:CLLocationDegrees = 50.07567293915004
         let longitude:CLLocationDegrees = 14.437235566404093
         
@@ -47,8 +49,10 @@ class ViewController: UIViewController {
         mapItem.openInMaps(launchOptions: options)
     }
     
+   
     @IBAction func vypocitatButton(_ sender: Any) {
-        // Nepoužívej "!". Vždy použij náhradní hodnotu, když stávající neexistuje. Třeba `spotrebaTxt.text ?? "0"`
+    
+    // Nepoužívej "!". Vždy použij náhradní hodnotu, když stávající neexistuje. Třeba `spotrebaTxt.text ?? "0"`
         let projeto:Double = ((Double(spotrebaTxt.text ?? "0") ?? 0.0) / 100) * (Double(pocetKmTxt.text ?? "0") ?? 0.0)
         let amortizace:Double = (Double(amortizaceTxt.text ?? "0") ?? 0) * (Double(pocetKmTxt.text ?? "0") ?? 0)
         let cenaProjetychPh:Double = projeto * (Double(cenaLPhTxt.text ?? "0") ?? 0)
@@ -65,12 +69,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
-        
-        view.addGestureRecognizer(tap)
-}
-    @objc func dismissKeyboard() {
-        view.endEditing(true)
+       
     }
 }
 

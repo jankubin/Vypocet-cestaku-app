@@ -150,7 +150,7 @@
                                                             <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="navigaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h3A-Vs-4b9"/>
+                                                            <action selector="navigaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Esa-yG-SYl"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fc-XF-IXz">
@@ -165,7 +165,7 @@
                                                             <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="vypocitatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xdc-dJ-w3g"/>
+                                                            <action selector="vypocitatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nbx-iJ-Jd3"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
