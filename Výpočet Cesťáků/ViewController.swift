@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var cenaProjetychPhLbl: UILabel!
     @IBOutlet weak var celkovaCenaLbl: UILabel!
     
+    
     @IBAction func navigaceButton(_ sender: Any)
     {
         let latitude:CLLocationDegrees = 50.07567293915004
@@ -63,8 +64,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        
+        view.addGestureRecognizer(tap)
 }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }
 
 
