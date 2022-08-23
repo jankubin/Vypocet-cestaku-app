@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +19,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" red="0.75686274509803919" green="0.92156862745098034" blue="0.91764705882352937" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Návrh bez názvu-15" translatesAutoresizingMaskIntoConstraints="NO" id="NEd-eO-w6I">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Návrh bez názvu-15" translatesAutoresizingMaskIntoConstraints="NO" id="NEd-eO-w6I">
                                 <rect key="frame" x="124" y="269" width="166.5" height="373"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.75686274509999996" green="0.92156862750000001" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NEd-eO-w6I" secondAttribute="bottom" constant="220" id="13v-D1-ZNP"/>
                             <constraint firstItem="8T2-Jb-joF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3eQ-uk-Web"/>
@@ -44,9 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Návrh bez názvu-15" width="166.5" height="166.5"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="Návrh bez názvu-15" width="166.5" height="166.5"/>
     </resources>
 </document>
