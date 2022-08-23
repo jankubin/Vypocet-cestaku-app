@@ -27,7 +27,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MWv-AJ-Wx4">
-                                                <rect key="frame" x="20" y="10" width="374" height="629"/>
+                                                <rect key="frame" x="20" y="10" width="374" height="640"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Výpočet Cesťáku" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4a-ES-nwG">
                                                         <rect key="frame" x="0.0" y="0.0" width="374" height="200"/>
@@ -38,32 +38,44 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" ambiguous="YES" text="Projeto l PH" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpG-xZ-IUb">
-                                                        <rect key="frame" x="0.0" y="210" width="374" height="63.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Projeto l PH" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpG-xZ-IUb">
+                                                        <rect key="frame" x="0.0" y="210" width="374" height="34"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="34" id="Gca-jF-1Tt"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" ambiguous="YES" text="Amortizace" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFZ-cg-21V">
-                                                        <rect key="frame" x="0.0" y="283.5" width="374" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" text="Amortizace" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFZ-cg-21V">
+                                                        <rect key="frame" x="0.0" y="254" width="374" height="34"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="34" id="t0f-MR-72T"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" ambiguous="YES" text="Cena projetých PH" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD0-G2-hI0">
-                                                        <rect key="frame" x="0.0" y="314" width="374" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Cena projetých PH" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD0-G2-hI0">
+                                                        <rect key="frame" x="0.0" y="298" width="374" height="34"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="34" id="a6D-w4-Wy1"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" ambiguous="YES" text="Celková cena cesťáku" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6F-gB-EDp">
-                                                        <rect key="frame" x="0.0" y="344.5" width="374" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Celková cena cesťáku" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6F-gB-EDp">
+                                                        <rect key="frame" x="0.0" y="342" width="374" height="34"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="34" id="ETx-cT-toh"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DF7-Pi-pYH">
-                                                        <rect key="frame" x="0.0" y="375" width="374" height="34"/>
+                                                        <rect key="frame" x="0.0" y="386" width="374" height="34"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Počet km" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gqt-ie-itk">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
@@ -79,7 +91,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Aie-Pu-gs6">
-                                                        <rect key="frame" x="0.0" y="419" width="374" height="34"/>
+                                                        <rect key="frame" x="0.0" y="430" width="374" height="34"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Spotřeba l/100 km" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i5d-ox-oX7">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
@@ -95,7 +107,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3x0-Ae-y47">
-                                                        <rect key="frame" x="0.0" y="463" width="374" height="34"/>
+                                                        <rect key="frame" x="0.0" y="474" width="374" height="34"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cena 1 l PH" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="af7-BO-BLk">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
@@ -111,7 +123,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="g0k-vy-2HD">
-                                                        <rect key="frame" x="0.0" y="507" width="374" height="34"/>
+                                                        <rect key="frame" x="0.0" y="518" width="374" height="34"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amortizace za 1 km" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g7Q-x3-Ayw">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
@@ -127,7 +139,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRg-t9-CYz">
-                                                        <rect key="frame" x="0.0" y="551" width="374" height="34"/>
+                                                        <rect key="frame" x="0.0" y="562" width="374" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="34" id="3V3-QC-Mjx"/>
                                                         </constraints>
@@ -142,7 +154,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fc-XF-IXz">
-                                                        <rect key="frame" x="0.0" y="595" width="374" height="34"/>
+                                                        <rect key="frame" x="0.0" y="606" width="374" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="34" id="qdd-xd-p7H"/>
                                                         </constraints>
@@ -161,7 +173,6 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="MWv-AJ-Wx4" secondAttribute="bottom" constant="33" id="9mR-Rk-juM"/>
                                             <constraint firstAttribute="trailing" secondItem="MWv-AJ-Wx4" secondAttribute="trailing" constant="20" id="eN0-6X-Liq"/>
                                             <constraint firstItem="MWv-AJ-Wx4" firstAttribute="leading" secondItem="dvg-Pe-LZz" secondAttribute="leading" constant="20" id="gKw-pK-ZRS"/>
                                             <constraint firstAttribute="height" constant="628" id="y4B-Lr-7fE"/>
